@@ -1,0 +1,30 @@
+1. Jelaskan multidimensional arrays dan berikan contoh.
+    = Array yang berisikan satu/lebih array di dalamnya. Contohnya seperti :
+        int[][] matrix = {
+            {1,2,3},
+            {3,2,1},
+            {2,3,1}
+        }
+
+2. Sebutkan dan jelaskan 13 method-method string dalam Java
+    = length() memberikan informasi akan panjangnya string.
+      charAt(int index) mengambil huruf/karakter di posisi tersebut.
+      equals(Object obj) membandingkan strings.
+      toLowerCase() mengubah string menjadi huruf kecil
+      toUpperCase() mengubah string menjadi huruf kapital
+      trim() menghapus spasi di awal dan akhir string.
+      replace(CharSequence target,CharSequence replacement) mengganti substring dengan yang lain.
+      split(String regex) memecah string berdasarkan regex ("Hello World" -> "Hello" "World")
+      indexOf(String str) mengembalikan posisi pertama substring
+      isEmpty() mengecek string apabila kosong
+      substring(int beginIndex, int endIndex) mengambil potongan dari string.
+      contains(CharSequence seq) mengecek apabila string ada substring.
+      equalsIgnoreCase(String anotherString) membandingkan string tanpa memperhatikan huruf besar/kecil.
+
+3. Sebutkan 2 keuntungan Immutability dalam Java.
+    = Salah satu keuntungan utama dari immutability adalah thread safety. Di lingkungan multi-threaded, data yang
+ bisa berubah-ubah sering jadi sumber masalah. Bayangkan dua thread mencoba mengubah satu variabel secara
+ bersamaan—hasilnya bisa kacau, muncul race condition yang bikin bug susah dilacak. Maka Data yang sudah
+ dibuat tidak bisa diubah, jadi nggak ada rebutan akses antar thread.
+
+ (Src : https://www.idn.id/kenapa-immutability-penting-dalam-pemrograman-modern)
